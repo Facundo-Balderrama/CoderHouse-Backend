@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "Producto de prueba1",
+    "description": "Description de prueba1",
+    "code": "PR123",
+    "price": 20000,
+    "status": true,
+    "stock": 20,
+    "category": "Tecnologia",
+    "thumbnails": []
+  }
+]
