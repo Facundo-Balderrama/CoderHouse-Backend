@@ -4,13 +4,13 @@ const router = express.Router();
 
 const CARTS_FILE = './data/carts.json';
 
-// Funcion para leer carritos
+// Helper function to read carts from file
 const readCarts = () => {
     const data = fs.readFileSync(CARTS_FILE);
     return JSON.parse(data);
 };
 
-// Funcion para escribir en los carritos
+// Helper function to write carts to file
 const writeCarts = (carts) => {
     fs.writeFileSync(CARTS_FILE, JSON.stringify(carts, null, 2));
 };
