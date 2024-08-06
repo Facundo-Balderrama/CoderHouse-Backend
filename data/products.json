@@ -1,13 +1,28 @@
 [
   {
     "id": 1,
-    "title": "Producto de prueba1",
-    "description": "Description de prueba1",
-    "code": "PR123",
-    "price": 20000,
+    "title": "Termo",
+    "description": "termo de 1,2L",
+    "code": "123",
+    "price": "29990",
     "status": true,
-    "stock": 20,
-    "category": "Tecnologia",
-    "thumbnails": []
+    "stock": "10",
+    "category": "bazar",
+    "thumbnails": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mate",
+    "description": "Mate de calabaza",
+    "code": "456",
+    "price": "19990",
+    "status": true,
+    "stock": "5",
+    "category": "bazar",
+    "thumbnails": [
+      ""
+    ]
   }
 ]

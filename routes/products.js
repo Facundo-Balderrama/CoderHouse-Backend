@@ -1,9 +1,10 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const router = express.Router();
 const io = require('../server'); // Importa la instancia de socket.io
 
-const PRODUCTS_FILE = './data/products.json';
+const PRODUCTS_FILE = path.join(__dirname, '../data/products.json');
 
 // 
 const readProducts = () => {
@@ -47,7 +48,7 @@ router.delete('/:pid', (req, res) => {
     let products = readProducts();
     const productIndex = products.findIndex(p => p.id === parseInt(req.params.pid));
     if (productIndex !== -1) {
-        const deletedProduct = products.splice(productIndex, 1);
+        products.splice(productIndex, 1);
         writeProducts(products);
         io.emit('removeProduct', parseInt(req.params.pid)); // Emitir evento de WebSocket
         res.status(204).send();
