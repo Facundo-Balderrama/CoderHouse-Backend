@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Termo Stanley Mate System",
+    "description": "Termo de 1,2L, su tapa funciona como un mate",
+    "code": "SQ-4364",
+    "price": 39990,
+    "stock": 10,
+    "category": "Termos",
+    "thumbnails": [
+      ""
+    ]
+  },
+  {
+    "title": "Mate Imperial de Algarroba",
+    "description": "Mate de calabaza premium de cuero vacuno",
+    "code": "SQ-1294",
+    "price": 19990,
+    "stock": 25,
+    "category": "Mates",
+    "thumbnails": [
+      ""
+    ]
+  },
+  {
+    "title": "Matera de cuero",
+    "description": "Matero canasta reforzada y hecha de cuero vacuno",
+    "code": "SQ-6535",
+    "price": 14990,
+    "stock": 8,
+    "category": "Materas",
+    "thumbnails": [
+      ""
+    ]
+  },
+  {
+    "title": "Mate Torpedo + Termo Lumilagro de 1L",
+    "description": "Promo de termo + mate",
+    "code": "SQ-6213",
+    "price": 35490,
+    "stock": 5,
+    "category": "Combos",
+    "thumbnails": [
+      ""
+    ]
+  }
+]
